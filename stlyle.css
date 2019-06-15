@@ -1,0 +1,37 @@
+.header-content{
+    padding: 30px 0;
+    text-align: center;
+}
+.main-content{
+    padding: 30px 0;
+    width: 100%;
+}
+.footer-content{
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+.header-content__title:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+.header-content__title:active {
+    background-color: blue;
+}
+.header-content__title:after {
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.header-content__title:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+}
+.footer-content__title:hover{
+    background: linear-gradient(rgba(30, 255, 0, 0.253) 25%, rgb(0, 17, 255) 75%);
+}
